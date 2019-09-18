@@ -1,0 +1,18 @@
+server:
+  port: 8761 #提供者的端口
+spring:
+  application:
+    name: eureka-server
+eureka:
+  instance:
+    lease-renewal-interval-in-seconds: 1
+    lease-expiration-duration-in-seconds: 2
+  client:
+    register-with-eureka: false #不是用eureka进行服务注册
+    fetch-registry: false #不在本地缓存注册信息
+    service-url:
+        defaultZone: http://localhost:8761/eureka/
+  server:
+    wait-time-in-ms-when-sync-empty: 5 #在服务器接收请求之前等待初始时间
+    enable-self-preservation: false
+

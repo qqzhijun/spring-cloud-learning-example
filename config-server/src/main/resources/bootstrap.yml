@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: gateway-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/lidong1665/gateway-server
+          username: xxxxxxxx
+          password: xxxxxxxxxxxx
+          default-label: master

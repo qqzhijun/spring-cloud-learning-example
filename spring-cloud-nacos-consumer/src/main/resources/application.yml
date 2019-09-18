@@ -1,0 +1,15 @@
+server:
+  port: 9008 #提供者的端口
+spring:
+  application:
+    name: spring-cloud-nacos-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.10.200:8848
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

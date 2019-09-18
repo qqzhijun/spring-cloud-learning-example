@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: spring-cloud-gateway-service-dynamic-redis
+  redis:
+    database: 3
+    host: 192.168.10.200
+    port: 9078
+    password: xxxxxxxxxxx   # 密码（默认为空）
+    timeout: 6000ms  # 连接超时时长（毫秒）
+    lettuce:
+      pool:
+        max-active: 8  # 连接池最大连接数（使用负值表示没有限制）
+        max-wait: -1ms      # 连接池最大阻塞等待时间（使用负值表示没有限制）
+        max-idle: 10      # 连接池中的最大空闲连接
+        min-idle: 5       # 连接池中的最小空闲连接
+  jackson:
+    serialization:
+      indent-output: true
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.10.200:8848
+    gateway:
+      discovery:      #是否与服务发现组件进行结合，通过 serviceId(必须设置成大写) 转发到具体的服务实例。默认为false，设为true便开启通过服务中心的自动根据 serviceId 创建路由的功能。
+        locator:      #路由访问方式：http://Gateway_HOST:Gateway_PORT/大写的serviceId/**，其中微服务应用名默认大写访问。
+          enabled: true
+      enabled: true #如果包含启动程序，但出于某些原因，不希望启用网关，则设置spring.cloud.gateway.enabled=false
+      routes:
+#        - id: 163   #网关路由到网易官网
+#          uri: http://www.163.com/
+#          predicates:
+#            - Path=/163/**
+         - id: spring-cloud-nacos-consumer           #网关路由到用户服务spring-cloud-nacos-consumer
+           uri: lb://spring-cloud-nacos-consumer
+           predicates:
+             - Path=/spring-cloud-nacos-consumer/**

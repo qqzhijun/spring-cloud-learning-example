@@ -1,0 +1,29 @@
+server:
+  port: 9019 #消费者的端口
+spring:
+  application:
+    name: spring-cloud-eureka-fignclient-consumer
+
+eureka:
+  client:
+    service-url:
+      # 指定eureka server通信地址，注意/eureka/
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    # 是否注册IP到eureka server，如不指定或设为false，那就会注册主机名到eureka server
+    prefer-ip-address: false
+feign:
+  hystrix:
+    enabled: true
+  client:
+    config:
+      defautl:  # 全局的配置需要把 client-name 指定为 default
+        connectTimeout: 5000  # 链接超时时间
+        readTimeout: 5000 # 读超时
+        loggerLevel: full # 日志级别
+# 开启日志
+logging:
+  level:
+    com:
+      lidong:
+        consumer: debug

@@ -1,0 +1,31 @@
+dubbo:
+  scan:
+    # 指定 Dubbo 服务实现类的扫描基准包
+    base-packages: com.lidong
+  protocols:
+    # dubbo 协议
+    dubbo:
+      name: dubbo
+      # dubbo 协议端口（ -1 表示自增端口，从 20880 开始）
+      port: -1
+    rest:
+      name: rest
+      port: 9091
+      server: netty
+  registry:
+    #    # 挂载到 Spring Cloud 注册中心
+    address: spring-cloud://localhost
+#   The traditional Dubbo's registry
+#   address: zookeeper://127.0.0.1:2181
+  metadata-report:
+    address: nacos://192.168.10.200:8848
+  config-center:
+    address: nacos://192.168.10.200:8848
+feign:
+  hystrix:
+    enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: spring-cloud-nacos-config
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.10.200:8848
+        file-extension: properties
+        refreshable-dataids: spring-cloud-nacos-config.properties
+        shared-dataids: spring-cloud-nacos-config.properties
+      discovery:
+        server-addr: 192.168.10.200:8848

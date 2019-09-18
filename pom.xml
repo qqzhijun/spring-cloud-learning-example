@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.lidong.cloud</groupId>
+    <artifactId>spring-cloud-lidong-example</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>spring-cloud-nacos-consumer</module>
+        <module>spring-cloud-consul-consumer</module>
+        <module>spring-cloud-consul-producer</module>
+        <module>spring-cloud-consul-producer2</module>
+        <module>spring-cloud-nacos-producer</module>
+        <module>spring-cloud-nacos-config</module>
+        <module>eureka-server</module>
+        <module>spring-cloud-eureka-producer</module>
+        <module>spring-cloud-eureka-producer2</module>
+        <module>spring-cloud-eureka-ribbon-consumer</module>
+        <module>spring-cloud-eureka-fignclient-consumer</module>
+        <module>spring-cloud-eureka-hystrix-turbine</module>
+        <module>config-server</module>
+        <module>config-client</module>
+        <module>admin-server</module>
+        <module>spring-cloud-gateway-service</module>
+        <module>springboot01</module>
+        <module>springboot02</module>
+        <module>springboot03</module>
+        <module>springboot-es</module>
+        <module>springboot-mail</module>
+        <module>springboot-rabbitmq</module>
+        <module>springboot-iot</module>
+        <module>springboot-sharding-sphere</module>
+        <module>springboot-flink-rabbitmq</module>
+        <module>springboot-iot-mqtt</module>
+        <module>spring-cloud-alibaba-dubbo-examples</module>
+        <module>spring-cloud-gateway-service-sentinel</module>
+        <module>spring-cloud-gateway-service-sentinel-register</module>
+        <module>spring-cloud-gateway-service-dynamic-redis</module>
+        <module>spring-cloud-gateway-service-dynamic-mysql</module>
+        <module>springboot-dubbo-seata</module>
+        <module>springboot-kafka</module>
+        <module>spring-cloud-nacos-auth-service</module>
+        <module>spring-cloud-gateway-service-dynamic-nacos</module>
+    </modules>
+
+
+</project>

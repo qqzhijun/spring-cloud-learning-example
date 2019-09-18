@@ -1,0 +1,53 @@
+spring:
+  application:
+    name: spring-cloud-gateway-service
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    gateway:
+      enabled: true
+      discovery:
+        locator:
+          lower-case-service-id: true
+      routes:
+        # Add your routes here.
+        - id: aliyun_route
+          uri: https://www.aliyun.com/
+          predicates:
+            - Path=/product/**
+        - id: httpbin_route
+          uri: https://httpbin.org
+          predicates:
+            - Path=/httpbin/**
+          filters:
+            - RewritePath=/httpbin/(?<segment>.*), /$\{segment}
+    sentinel:
+      datasource.ds2.nacos:
+        server-addr: 192.168.10.200:8848
+        data-id: gateway.json
+        data-type: json
+        group-id: DEFAULT_GROUP
+        ruleType: gw-flow
+      datasource.ds1.nacos:
+        server-addr: 192.168.10.200:8848
+        data-id: api.json
+        data-type: json
+        group-id: DEFAULT_GROUP
+        ruleType: gw-api-group
+      ## 应用与Sentinel控制台交互的端口，应用本地会起一个该端口占用的HttpServer
+      transport:
+        ## Sentinel 控制台地址
+        dashboard: localhost:8080
+        ## 应用与Sentinel控制台的心跳间隔时间
+        heartbeat-interval-ms: 60000
+      filter:
+        enabled: true
+      scg.fallback:
+        ##  Spring Cloud Gateway 熔断后的响应模式(选择 redirect or response)
+        mode: response
+        ## Spring Cloud Gateway 响应模式为 'response' 模式对应的响应码
+        response-status: 444
+        ## Spring Cloud Gateway 响应模式为 'response' 模式对应的响应内容
+        response-body: 1234
+      scg:
+        order: -100

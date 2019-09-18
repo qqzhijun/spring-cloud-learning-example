@@ -1,0 +1,16 @@
+server:
+  port: 9002 #服务消费者的端口
+spring:
+  application:
+    name: spring-cloud-consul-consumer
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        tags: dev
+        register: false    #设置不需要注册到 consul 中
+        healthCheckPath: /actuator/health
+        healthCheckInterval: 15s
+        healthCheckUrl: http://127.0.0.1:9002/actuator/health
+

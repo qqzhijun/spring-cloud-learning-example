@@ -1,0 +1,25 @@
+
+spring:
+  kafka:
+    bootstrap-servers: 192.168.10.200:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    consumer:
+      group-id: test
+      enable-auto-commit: true
+      auto-commit-interval: 1000
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+server:
+  servlet:
+    context-path:
+  port: 8888
+
+#  查看主题的详细信息指令
+#  ./bin/kafka-topics.sh --zookeeper localhost:2181 --describe --topic  test_topic
+
+ # ./bin/kafka-topics.sh --alter  --zookeeper localhost:2181  --topic 主题名称  --partitions
+ # 分区数量
+
+#  ./bin/kafka-topics.sh --alter  --zookeeper localhost:2181  --topic test_topic  --partitions 5

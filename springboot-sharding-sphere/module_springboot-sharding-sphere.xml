@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_springboot-sharding-sphere" default="compile.module.springboot-sharding-sphere">
+  <dirname property="module.springboot-sharding-sphere.basedir" file="${ant.file.module_springboot-sharding-sphere}"/>
+  
+  <property name="module.jdk.home.springboot-sharding-sphere" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.springboot-sharding-sphere" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.springboot-sharding-sphere" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.springboot-sharding-sphere" value="-encoding UTF-8 -source 8 -target 1.8 ${compiler.args}"/>
+  
+  <property name="springboot-sharding-sphere.output.dir" value="${module.springboot-sharding-sphere.basedir}/target/classes"/>
+  <property name="springboot-sharding-sphere.testoutput.dir" value="${module.springboot-sharding-sphere.basedir}/target/test-classes"/>
+  
+  <path id="springboot-sharding-sphere.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="springboot-sharding-sphere.module.production.classpath">
+    <path refid="${module.jdk.classpath.springboot-sharding-sphere}"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-starter-web:2.1.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-starter:2.1.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot:2.1.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-starter-logging:2.1.1.release.classpath"/>
+    <path refid="library.maven:_ch.qos.logback:logback-classic:1.2.3.classpath"/>
+    <path refid="library.maven:_ch.qos.logback:logback-core:1.2.3.classpath"/>
+    <path refid="library.maven:_org.apache.logging.log4j:log4j-to-slf4j:2.11.1.classpath"/>
+    <path refid="library.maven:_org.apache.logging.log4j:log4j-api:2.11.1.classpath"/>
+    <path refid="library.maven:_org.slf4j:jul-to-slf4j:1.7.25.classpath"/>
+    <path refid="library.maven:_javax.annotation:javax.annotation-api:1.3.2.classpath"/>
+    <path refid="library.maven:_org.yaml:snakeyaml:1.23.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-starter-json:2.1.1.release.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-databind:2.9.7.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-annotations:2.9.0.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-core:2.9.7.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.7.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.7.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.7.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-starter-tomcat:2.1.1.release.classpath"/>
+    <path refid="library.maven:_org.apache.tomcat.embed:tomcat-embed-core:9.0.13.classpath"/>
+    <path refid="library.maven:_org.apache.tomcat.embed:tomcat-embed-el:9.0.13.classpath"/>
+    <path refid="library.maven:_org.apache.tomcat.embed:tomcat-embed-websocket:9.0.13.classpath"/>
+    <path refid="library.maven:_org.hibernate.validator:hibernate-validator:6.0.13.final.classpath"/>
+    <path refid="library.maven:_javax.validation:validation-api:2.0.1.final.classpath"/>
+    <path refid="library.maven:_org.jboss.logging:jboss-logging:3.3.2.final.classpath"/>
+    <path refid="library.maven:_com.fasterxml:classmate:1.4.0.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-web:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-beans:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-webmvc:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-aop:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-context:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-expression:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-core:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-jcl:5.1.3.release.classpath"/>
+    <path refid="library.maven:_com.zaxxer:hikaricp:3.3.1.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-api:1.7.25.classpath"/>
+    <path refid="library.maven:_com.baomidou:mybatis-plus-boot-starter:3.1.1.classpath"/>
+    <path refid="library.maven:_com.baomidou:mybatis-plus:3.1.1.classpath"/>
+    <path refid="library.maven:_com.baomidou:mybatis-plus-extension:3.1.1.classpath"/>
+    <path refid="library.maven:_com.baomidou:mybatis-plus-core:3.1.1.classpath"/>
+    <path refid="library.maven:_com.baomidou:mybatis-plus-annotation:3.1.1.classpath"/>
+    <path refid="library.maven:_com.github.jsqlparser:jsqlparser:1.2.classpath"/>
+    <path refid="library.maven:_org.mybatis:mybatis:3.5.1.classpath"/>
+    <path refid="library.maven:_org.mybatis:mybatis-spring:2.0.1.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-autoconfigure:2.1.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-starter-jdbc:2.1.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-jdbc:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-tx:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-jdbc-core:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-entry:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-api:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-common:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.codehaus.groovy:groovy:indy:2.4.5.classpath"/>
+    <path refid="library.maven:_commons-codec:commons-codec:1.11.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-parse-common:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-parse-spi:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.commons:commons-collections4:4.2.classpath"/>
+    <path refid="library.maven:_org.antlr:antlr4-runtime:4.7.1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-parse-mysql:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-parse-postgresql:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-parse-oracle:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-parse-sqlserver:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-optimize:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-route:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-rewrite:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-execute:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-merge:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-transaction-core:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_com.google.guava:guava:18.0.classpath"/>
+    <path refid="library.maven:_org.slf4j:jcl-over-slf4j:1.7.25.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-jdbc-spring-boot-starter:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-jdbc-spring-namespace:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.projectlombok:lombok:1.18.8.classpath"/>
+  </path>
+  
+  <path id="springboot-sharding-sphere.runtime.production.module.classpath">
+    <pathelement location="${springboot-sharding-sphere.output.dir}"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-starter-web:2.1.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-starter:2.1.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot:2.1.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-starter-logging:2.1.1.release.classpath"/>
+    <path refid="library.maven:_ch.qos.logback:logback-classic:1.2.3.classpath"/>
+    <path refid="library.maven:_ch.qos.logback:logback-core:1.2.3.classpath"/>
+    <path refid="library.maven:_org.apache.logging.log4j:log4j-to-slf4j:2.11.1.classpath"/>
+    <path refid="library.maven:_org.apache.logging.log4j:log4j-api:2.11.1.classpath"/>
+    <path refid="library.maven:_org.slf4j:jul-to-slf4j:1.7.25.classpath"/>
+    <path refid="library.maven:_javax.annotation:javax.annotation-api:1.3.2.classpath"/>
+    <path refid="library.maven:_org.yaml:snakeyaml:1.23.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-starter-json:2.1.1.release.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-databind:2.9.7.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-annotations:2.9.0.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-core:2.9.7.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.7.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.7.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.7.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-starter-tomcat:2.1.1.release.classpath"/>
+    <path refid="library.maven:_org.apache.tomcat.embed:tomcat-embed-core:9.0.13.classpath"/>
+    <path refid="library.maven:_org.apache.tomcat.embed:tomcat-embed-el:9.0.13.classpath"/>
+    <path refid="library.maven:_org.apache.tomcat.embed:tomcat-embed-websocket:9.0.13.classpath"/>
+    <path refid="library.maven:_org.hibernate.validator:hibernate-validator:6.0.13.final.classpath"/>
+    <path refid="library.maven:_javax.validation:validation-api:2.0.1.final.classpath"/>
+    <path refid="library.maven:_org.jboss.logging:jboss-logging:3.3.2.final.classpath"/>
+    <path refid="library.maven:_com.fasterxml:classmate:1.4.0.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-web:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-beans:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-webmvc:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-aop:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-context:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-expression:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-core:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-jcl:5.1.3.release.classpath"/>
+    <path refid="library.maven:_mysql:mysql-connector-java:8.0.13.classpath"/>
+    <path refid="library.maven:_com.zaxxer:hikaricp:3.3.1.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-api:1.7.25.classpath"/>
+    <path refid="library.maven:_com.baomidou:mybatis-plus-boot-starter:3.1.1.classpath"/>
+    <path refid="library.maven:_com.baomidou:mybatis-plus:3.1.1.classpath"/>
+    <path refid="library.maven:_com.baomidou:mybatis-plus-extension:3.1.1.classpath"/>
+    <path refid="library.maven:_com.baomidou:mybatis-plus-core:3.1.1.classpath"/>
+    <path refid="library.maven:_com.baomidou:mybatis-plus-annotation:3.1.1.classpath"/>
+    <path refid="library.maven:_com.github.jsqlparser:jsqlparser:1.2.classpath"/>
+    <path refid="library.maven:_org.mybatis:mybatis:3.5.1.classpath"/>
+    <path refid="library.maven:_org.mybatis:mybatis-spring:2.0.1.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-autoconfigure:2.1.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-starter-jdbc:2.1.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-jdbc:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-tx:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-jdbc-core:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-entry:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-api:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-common:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.codehaus.groovy:groovy:indy:2.4.5.classpath"/>
+    <path refid="library.maven:_commons-codec:commons-codec:1.11.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-parse-common:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-parse-spi:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.commons:commons-collections4:4.2.classpath"/>
+    <path refid="library.maven:_org.antlr:antlr4-runtime:4.7.1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-parse-mysql:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-parse-postgresql:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-parse-oracle:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-parse-sqlserver:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-optimize:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-route:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-rewrite:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-execute:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-merge:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-transaction-core:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_com.google.guava:guava:18.0.classpath"/>
+    <path refid="library.maven:_org.slf4j:jcl-over-slf4j:1.7.25.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-jdbc-spring-boot-starter:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-jdbc-spring-namespace:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.projectlombok:lombok:1.18.8.classpath"/>
+  </path>
+  
+  <path id="springboot-sharding-sphere.module.classpath">
+    <path refid="${module.jdk.classpath.springboot-sharding-sphere}"/>
+    <pathelement location="${springboot-sharding-sphere.output.dir}"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-starter-web:2.1.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-starter:2.1.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot:2.1.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-starter-logging:2.1.1.release.classpath"/>
+    <path refid="library.maven:_ch.qos.logback:logback-classic:1.2.3.classpath"/>
+    <path refid="library.maven:_ch.qos.logback:logback-core:1.2.3.classpath"/>
+    <path refid="library.maven:_org.apache.logging.log4j:log4j-to-slf4j:2.11.1.classpath"/>
+    <path refid="library.maven:_org.apache.logging.log4j:log4j-api:2.11.1.classpath"/>
+    <path refid="library.maven:_org.slf4j:jul-to-slf4j:1.7.25.classpath"/>
+    <path refid="library.maven:_javax.annotation:javax.annotation-api:1.3.2.classpath"/>
+    <path refid="library.maven:_org.yaml:snakeyaml:1.23.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-starter-json:2.1.1.release.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-databind:2.9.7.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-annotations:2.9.0.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-core:2.9.7.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.7.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.7.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.7.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-starter-tomcat:2.1.1.release.classpath"/>
+    <path refid="library.maven:_org.apache.tomcat.embed:tomcat-embed-core:9.0.13.classpath"/>
+    <path refid="library.maven:_org.apache.tomcat.embed:tomcat-embed-el:9.0.13.classpath"/>
+    <path refid="library.maven:_org.apache.tomcat.embed:tomcat-embed-websocket:9.0.13.classpath"/>
+    <path refid="library.maven:_org.hibernate.validator:hibernate-validator:6.0.13.final.classpath"/>
+    <path refid="library.maven:_javax.validation:validation-api:2.0.1.final.classpath"/>
+    <path refid="library.maven:_org.jboss.logging:jboss-logging:3.3.2.final.classpath"/>
+    <path refid="library.maven:_com.fasterxml:classmate:1.4.0.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-web:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-beans:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-webmvc:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-aop:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-context:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-expression:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-starter-test:2.1.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-test:2.1.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-test-autoconfigure:2.1.1.release.classpath"/>
+    <path refid="library.maven:_com.jayway.jsonpath:json-path:2.4.0.classpath"/>
+    <path refid="library.maven:_net.minidev:json-smart:2.3.classpath"/>
+    <path refid="library.maven:_net.minidev:accessors-smart:1.2.classpath"/>
+    <path refid="library.maven:_org.ow2.asm:asm:5.0.4.classpath"/>
+    <path refid="library.maven:_junit:junit:4.12.classpath"/>
+    <path refid="library.maven:_org.assertj:assertj-core:3.11.1.classpath"/>
+    <path refid="library.maven:_org.mockito:mockito-core:2.23.4.classpath"/>
+    <path refid="library.maven:_net.bytebuddy:byte-buddy:1.9.5.classpath"/>
+    <path refid="library.maven:_net.bytebuddy:byte-buddy-agent:1.9.5.classpath"/>
+    <path refid="library.maven:_org.objenesis:objenesis:2.6.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-core:1.3.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-library:1.3.classpath"/>
+    <path refid="library.maven:_org.skyscreamer:jsonassert:1.5.0.classpath"/>
+    <path refid="library.maven:_com.vaadin.external.google:android-json:0.0.20131108.vaadin1.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-core:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-jcl:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-test:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.xmlunit:xmlunit-core:2.6.2.classpath"/>
+    <path refid="library.maven:_mysql:mysql-connector-java:8.0.13.classpath"/>
+    <path refid="library.maven:_com.zaxxer:hikaricp:3.3.1.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-api:1.7.25.classpath"/>
+    <path refid="library.maven:_com.baomidou:mybatis-plus-boot-starter:3.1.1.classpath"/>
+    <path refid="library.maven:_com.baomidou:mybatis-plus:3.1.1.classpath"/>
+    <path refid="library.maven:_com.baomidou:mybatis-plus-extension:3.1.1.classpath"/>
+    <path refid="library.maven:_com.baomidou:mybatis-plus-core:3.1.1.classpath"/>
+    <path refid="library.maven:_com.baomidou:mybatis-plus-annotation:3.1.1.classpath"/>
+    <path refid="library.maven:_com.github.jsqlparser:jsqlparser:1.2.classpath"/>
+    <path refid="library.maven:_org.mybatis:mybatis:3.5.1.classpath"/>
+    <path refid="library.maven:_org.mybatis:mybatis-spring:2.0.1.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-autoconfigure:2.1.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-starter-jdbc:2.1.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-jdbc:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-tx:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-jdbc-core:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-entry:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-api:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-common:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.codehaus.groovy:groovy:indy:2.4.5.classpath"/>
+    <path refid="library.maven:_commons-codec:commons-codec:1.11.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-parse-common:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-parse-spi:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.commons:commons-collections4:4.2.classpath"/>
+    <path refid="library.maven:_org.antlr:antlr4-runtime:4.7.1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-parse-mysql:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-parse-postgresql:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-parse-oracle:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-parse-sqlserver:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-optimize:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-route:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-rewrite:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-execute:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-merge:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-transaction-core:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_com.google.guava:guava:18.0.classpath"/>
+    <path refid="library.maven:_org.slf4j:jcl-over-slf4j:1.7.25.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-jdbc-spring-boot-starter:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-jdbc-spring-namespace:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.projectlombok:lombok:1.18.8.classpath"/>
+  </path>
+  
+  <path id="springboot-sharding-sphere.runtime.module.classpath">
+    <pathelement location="${springboot-sharding-sphere.testoutput.dir}"/>
+    <pathelement location="${springboot-sharding-sphere.output.dir}"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-starter-web:2.1.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-starter:2.1.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot:2.1.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-starter-logging:2.1.1.release.classpath"/>
+    <path refid="library.maven:_ch.qos.logback:logback-classic:1.2.3.classpath"/>
+    <path refid="library.maven:_ch.qos.logback:logback-core:1.2.3.classpath"/>
+    <path refid="library.maven:_org.apache.logging.log4j:log4j-to-slf4j:2.11.1.classpath"/>
+    <path refid="library.maven:_org.apache.logging.log4j:log4j-api:2.11.1.classpath"/>
+    <path refid="library.maven:_org.slf4j:jul-to-slf4j:1.7.25.classpath"/>
+    <path refid="library.maven:_javax.annotation:javax.annotation-api:1.3.2.classpath"/>
+    <path refid="library.maven:_org.yaml:snakeyaml:1.23.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-starter-json:2.1.1.release.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-databind:2.9.7.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-annotations:2.9.0.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.core:jackson-core:2.9.7.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.7.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.7.classpath"/>
+    <path refid="library.maven:_com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.7.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-starter-tomcat:2.1.1.release.classpath"/>
+    <path refid="library.maven:_org.apache.tomcat.embed:tomcat-embed-core:9.0.13.classpath"/>
+    <path refid="library.maven:_org.apache.tomcat.embed:tomcat-embed-el:9.0.13.classpath"/>
+    <path refid="library.maven:_org.apache.tomcat.embed:tomcat-embed-websocket:9.0.13.classpath"/>
+    <path refid="library.maven:_org.hibernate.validator:hibernate-validator:6.0.13.final.classpath"/>
+    <path refid="library.maven:_javax.validation:validation-api:2.0.1.final.classpath"/>
+    <path refid="library.maven:_org.jboss.logging:jboss-logging:3.3.2.final.classpath"/>
+    <path refid="library.maven:_com.fasterxml:classmate:1.4.0.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-web:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-beans:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-webmvc:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-aop:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-context:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-expression:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-starter-test:2.1.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-test:2.1.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-test-autoconfigure:2.1.1.release.classpath"/>
+    <path refid="library.maven:_com.jayway.jsonpath:json-path:2.4.0.classpath"/>
+    <path refid="library.maven:_net.minidev:json-smart:2.3.classpath"/>
+    <path refid="library.maven:_net.minidev:accessors-smart:1.2.classpath"/>
+    <path refid="library.maven:_org.ow2.asm:asm:5.0.4.classpath"/>
+    <path refid="library.maven:_junit:junit:4.12.classpath"/>
+    <path refid="library.maven:_org.assertj:assertj-core:3.11.1.classpath"/>
+    <path refid="library.maven:_org.mockito:mockito-core:2.23.4.classpath"/>
+    <path refid="library.maven:_net.bytebuddy:byte-buddy:1.9.5.classpath"/>
+    <path refid="library.maven:_net.bytebuddy:byte-buddy-agent:1.9.5.classpath"/>
+    <path refid="library.maven:_org.objenesis:objenesis:2.6.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-core:1.3.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-library:1.3.classpath"/>
+    <path refid="library.maven:_org.skyscreamer:jsonassert:1.5.0.classpath"/>
+    <path refid="library.maven:_com.vaadin.external.google:android-json:0.0.20131108.vaadin1.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-core:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-jcl:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-test:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.xmlunit:xmlunit-core:2.6.2.classpath"/>
+    <path refid="library.maven:_mysql:mysql-connector-java:8.0.13.classpath"/>
+    <path refid="library.maven:_com.zaxxer:hikaricp:3.3.1.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-api:1.7.25.classpath"/>
+    <path refid="library.maven:_com.baomidou:mybatis-plus-boot-starter:3.1.1.classpath"/>
+    <path refid="library.maven:_com.baomidou:mybatis-plus:3.1.1.classpath"/>
+    <path refid="library.maven:_com.baomidou:mybatis-plus-extension:3.1.1.classpath"/>
+    <path refid="library.maven:_com.baomidou:mybatis-plus-core:3.1.1.classpath"/>
+    <path refid="library.maven:_com.baomidou:mybatis-plus-annotation:3.1.1.classpath"/>
+    <path refid="library.maven:_com.github.jsqlparser:jsqlparser:1.2.classpath"/>
+    <path refid="library.maven:_org.mybatis:mybatis:3.5.1.classpath"/>
+    <path refid="library.maven:_org.mybatis:mybatis-spring:2.0.1.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-autoconfigure:2.1.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework.boot:spring-boot-starter-jdbc:2.1.1.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-jdbc:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-tx:5.1.3.release.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-jdbc-core:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-entry:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-api:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-common:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.codehaus.groovy:groovy:indy:2.4.5.classpath"/>
+    <path refid="library.maven:_commons-codec:commons-codec:1.11.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-parse-common:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-parse-spi:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.commons:commons-collections4:4.2.classpath"/>
+    <path refid="library.maven:_org.antlr:antlr4-runtime:4.7.1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-parse-mysql:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-parse-postgresql:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-parse-oracle:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-parse-sqlserver:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-optimize:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-route:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-rewrite:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-execute:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-core-merge:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-transaction-core:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_com.google.guava:guava:18.0.classpath"/>
+    <path refid="library.maven:_org.slf4j:jcl-over-slf4j:1.7.25.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-jdbc-spring-boot-starter:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.apache.shardingsphere:sharding-jdbc-spring-namespace:4.0.0-rc1.classpath"/>
+    <path refid="library.maven:_org.projectlombok:lombok:1.18.8.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.springboot-sharding-sphere">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.springboot-sharding-sphere">
+    <patternset refid="excluded.from.module.springboot-sharding-sphere"/>
+  </patternset>
+  
+  <path id="springboot-sharding-sphere.module.sourcepath">
+    <dirset dir="${module.springboot-sharding-sphere.basedir}">
+      <include name="src/main/java"/>
+      <include name="src/main/resources"/>
+    </dirset>
+  </path>
+  
+  <path id="springboot-sharding-sphere.module.test.sourcepath">
+    <dirset dir="${module.springboot-sharding-sphere.basedir}">
+      <include name="src/test/java"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.springboot-sharding-sphere" depends="compile.module.springboot-sharding-sphere.production,compile.module.springboot-sharding-sphere.tests" description="Compile module springboot-sharding-sphere"/>
+  
+  <target name="compile.module.springboot-sharding-sphere.production" depends="register.custom.compilers" description="Compile module springboot-sharding-sphere; production classes">
+    <mkdir dir="${springboot-sharding-sphere.output.dir}"/>
+    <javac2 destdir="${springboot-sharding-sphere.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.springboot-sharding-sphere}/javac">
+      <compilerarg line="${compiler.args.springboot-sharding-sphere}"/>
+      <bootclasspath refid="springboot-sharding-sphere.module.bootclasspath"/>
+      <classpath refid="springboot-sharding-sphere.module.production.classpath"/>
+      <src refid="springboot-sharding-sphere.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.springboot-sharding-sphere"/>
+    </javac2>
+    
+    <copy todir="${springboot-sharding-sphere.output.dir}">
+      <fileset dir="${module.springboot-sharding-sphere.basedir}/src/main/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.springboot-sharding-sphere.basedir}/src/main/resources">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.springboot-sharding-sphere.tests" depends="register.custom.compilers,compile.module.springboot-sharding-sphere.production" description="compile module springboot-sharding-sphere; test classes" unless="skip.tests">
+    <mkdir dir="${springboot-sharding-sphere.testoutput.dir}"/>
+    <javac2 destdir="${springboot-sharding-sphere.testoutput.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.springboot-sharding-sphere}/javac">
+      <compilerarg line="${compiler.args.springboot-sharding-sphere}"/>
+      <bootclasspath refid="springboot-sharding-sphere.module.bootclasspath"/>
+      <classpath refid="springboot-sharding-sphere.module.classpath"/>
+      <src refid="springboot-sharding-sphere.module.test.sourcepath"/>
+      <patternset refid="excluded.from.compilation.springboot-sharding-sphere"/>
+    </javac2>
+    
+    <copy todir="${springboot-sharding-sphere.testoutput.dir}">
+      <fileset dir="${module.springboot-sharding-sphere.basedir}/src/test/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="clean.module.springboot-sharding-sphere" description="cleanup module">
+    <delete dir="${springboot-sharding-sphere.output.dir}"/>
+    <delete dir="${springboot-sharding-sphere.testoutput.dir}"/>
+  </target>
+</project>

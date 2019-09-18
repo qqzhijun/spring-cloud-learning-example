@@ -1,0 +1,29 @@
+spring:
+  cloud:
+    gateway:
+      enabled: true
+      discovery:
+        locator:
+          lower-case-service-id: true
+      routes:
+        # Add your routes here.
+        - id: aliyun_route
+          uri: https://www.aliyun.com/
+          predicates:
+            - Path=/product/**
+        - id: httpbin_route
+          uri: https://httpbin.org
+          predicates:
+            - Path=/httpbin/**
+          filters:
+            - RewritePath=/httpbin/(?<segment>.*), /$\{segment}
+        #认证服务路由
+        - id: auth-service
+          predicates:
+            - Path=/auth-service/**
+          uri: lb://spring-cloud-nacos-auth-service
+          filters:
+            - StripPrefix=1
+    nacos:
+      discovery:
+        server-addr: 192.168.10.200:8848

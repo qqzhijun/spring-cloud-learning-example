@@ -1,0 +1,30 @@
+server:
+  port: 9030 #提供者的端口
+spring:
+  application:
+    name: admin-server
+  security:
+    user:
+      name: admin
+      password: admin
+    boot:
+      admin:
+        ui:
+          title: 监控管理后台
+        client:
+          url: http://localhost:9030
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.10.200:8848
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS
+    shutdown: # 可以关闭制定的端点
+      enabled: false

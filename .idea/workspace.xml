@@ -1,0 +1,1412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b5fd5495-1d35-4376-8594-9e6601df0ce1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/springboot-iot/src/main/java/com/lidong/webiot/h003/KeQiangXiaoXinController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iot/src/main/java/com/lidong/webiot/h003/KeQiangXiaoXinController.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-alibaba-dubbo-examples/spring-cloud-alibaba-dubbo-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-alibaba-dubbo-examples/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-alibaba-dubbo-examples/spring-cloud-alibaba-dubbo-consumer-sentinel/target/" />
+    <ignored path="$PROJECT_DIR$/admin-server/target/" />
+    <ignored path="$PROJECT_DIR$/config-server/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/config-client/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-alibaba-dubbo-examples/spring-cloud-alibaba-dubbo-api/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-alibaba-dubbo-examples/spring-cloud-alibaba-dubbo-provider/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-alibaba-dubbo-examples/spring-cloud-alibaba-dubbo-provider2/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-alibaba-dubbo-examples/spring-cloud-alibaba-dubbo-provider-web/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-consul-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-consul-producer/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-alibaba-dubbo-examples/spring-cloud-dubbo-servlet-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-consul-producer2/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-eureka-producer/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-eureka-hystrix-turbine/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-eureka-fignclient-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-gateway-service-dynamic/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-gateway-service/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-nacos-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-eureka-producer2/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-nacos-config/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-eureka-ribbon-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-flink-rabbitmq/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-nacos-producer/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-iot-mqtt/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-es/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-iot/target/" />
+    <ignored path="$PROJECT_DIR$/springboot01/target/" />
+    <ignored path="$PROJECT_DIR$/springboot02/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-rabbitmq/target/" />
+    <ignored path="$PROJECT_DIR$/springboot03/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-sharding-sphere/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-mail/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-gateway-service-sentinel/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-gateway-service-sentinel-register/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-redis/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-mysql/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-dubbo-seata/samples-order/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-dubbo-seata/samples-account/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-dubbo-seata/samples-business/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-dubbo-seata/samples-storage/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-dubbo-seata/samples-common/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-dubbo-seata/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-kafka/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-nacos-auth-service/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-nacos/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-iot/src/main/java/com/lidong/webiot/strategy/impl/E001CommandDataStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-iot/src/main/java/com/lidong/webiot/strategy/impl/RequestCommandType200Strategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-iot/src/main/java/com/lidong/webiot/netty/BootNettyChannelInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-iot/src/main/java/com/lidong/webiot/netty/BootNettyServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-976">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-iot/src/main/java/com/lidong/webiot/netty/BootNettyChannelInboundHandlerAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-iot/src/main/java/com/lidong/webiot/strategy/Context.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-iot/src/main/java/com/lidong/webiot/strategy/CommandDataStrategyFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="20" column="100" selection-start-line="20" selection-start-column="100" selection-end-line="20" selection-end-column="100" />
+              <folding>
+                <element signature="e#1920#1921#0" expanded="true" />
+                <element signature="e#1964#1965#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-iot/src/main/java/com/lidong/webiot/strategy/RequestCommdTypeStrategyFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-iot/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2997" />
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springboot-iot/src/main/java/com/lidong/webiot/h003/KeQiangXiaoXinController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-end-line="18" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>spring-cloud-alibaba-dubbo-consumer</find>
+      <find>account</find>
+      <find>seata</find>
+      <find>dubbo-config-spring</find>
+      <find>nacos-client</find>
+      <find>dependencies</find>
+      <find>spring.datasource.username=worker</find>
+      <find>spring.datasource.password=China@5678</find>
+      <find>* @author heshouyou</find>
+      <find>@since 2019-01-13</find>
+      <find>@Date Created in 2019/1/23 15:59</find>
+      <find>factoryBean.setTransactionFactory(new JdbcTransactionFactory());</find>
+      <find>flag</find>
+      <find>actuator</find>
+      <find>nacos.a-hh.cn</find>
+      <find>redis.a-hh.cn</find>
+      <find>aihuhui_redis@163.com</find>
+      <find>worker</find>
+      <find>China@5678</find>
+      <find>&lt;version&gt;2.1.1.RELEASE&lt;/version&gt;</find>
+      <find>&lt;artifactId&gt;spring-boot-starter-parent&lt;/artifactId&gt;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>key</replace>
+      <replace>spring.datasource.username=lidong</replace>
+      <replace>spring.datasource.password=cwj887766@@</replace>
+      <replace>* @author lidong</replace>
+      <replace>@since 2019-09-04</replace>
+      <replace>@Date Created in 2019-09-04</replace>
+      <replace>192.168.10.200</replace>
+      <replace>xxxxxxxxxxx</replace>
+      <replace>123456</replace>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\springcloud\spring-cloud-lidong-example\springboot-dubbo-seata</dir>
+      <dir>D:\springcloud\spring-cloud-lidong-example</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-service-sentinel/src/main/java/com/lidong/gateway/SentinelGatewayApplication.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-service-sentinel/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-nacos-auth-service/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-service-sentinel/src/main/java/com/lidong/gateway/JWTAuthFilter.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-service-sentinel/src/main/java/com/lidong/gateway/filter/JWTAuthFilter.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-nacos-auth-service/src/main/java/com/lidong/auth/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-service-sentinel/src/main/java/com/lidong/gateway/comm/GatewayLogUtil.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-service-sentinel/src/main/java/com/lidong/gateway/comm/DataBufferWrapper.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-service-sentinel/src/main/java/com/lidong/gateway/comm/DataBufferUtilFix.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-service-sentinel/src/main/java/com/lidong/gateway/comm/RecorderServerHttpRequestDecorator.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-service-sentinel/src/main/java/com/lidong/gateway/comm/RecorderServerHttpResponseDecorator.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-service-sentinel/src/main/java/com/lidong/gateway/filter/RequestRecorderGlobalFilter.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-service-sentinel/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-nacos/src/main/java/com/lidong/gateway/repository/NacosRouteDefinitionRepository.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-nacos/src/main/java/com/lidong/gateway/service/impl/GatewayDefineServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-nacos/src/main/java/com/lidong/gateway/GatewayDefineServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-nacos/src/main/java/com/lidong/gateway/ApplicationStartup.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-nacos-config/src/main/java/com/lidong/config/SpringCloudNacosConfigApplication.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-nacos/src/main/java/com/lidong/gateway/GatewayApplication.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-nacos/src/main/java/com/lidong/gateway/NacosGatewayDefineService.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-nacos/src/main/java/com/lidong/gateway/DynamicRouteServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-nacos/src/main/java/com/lidong/gateway/NacosGatewayDefineConfig.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-nacos/src/main/java/com/lidong/gateway/NaocsDynamicRouteService.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-nacos/src/main/java/com/lidong/gateway/NacosDynamicRouteServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-nacos/src/main/java/com/lidong/gateway/NacosDynamicRouteService.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-service-sentinel/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-nacos/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-nacos/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-nacos/src/main/java/com/lidong/gateway/config/NacosGatewayDefineConfig.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-nacos/src/main/java/com/lidong/gateway/service/NacosDynamicRouteServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-nacos/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-nacos/src/main/java/com/lidong/gateway/service/NacosDynamicRouteService.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-nacos/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/springboot-sharding-sphere/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/lidong/RabbitMqConfig.java" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/lidong/QueueConfig.java" />
+        <option value="$PROJECT_DIR$/config-server/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-nacos-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul-producer2/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-nacos-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-nacos-config/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-iot/src/main/java/com/lidong/webiot/netty/BootNettyServer.java" />
+        <option value="$PROJECT_DIR$/springboot-iot/src/main/java/com/lidong/webiot/strategy/CommandDataStrategyFactory.java" />
+        <option value="$PROJECT_DIR$/springboot-iot/src/main/java/com/lidong/webiot/strategy/RequestCommdTypeStrategyFactory.java" />
+        <option value="$PROJECT_DIR$/springboot-iot/src/main/java/com/lidong/webiot/h003/KeQiangXiaoXinController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\tools\apache-maven-3.3.3\main_factory2" />
+        <option name="mavenHome" value="E:/tools/apache-maven-3.3.3" />
+        <option name="userSettingsFile" value="E:\tools\apache-maven-3.3.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-cloud-gateway-service-sentinel" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-cloud-gateway-service-sentinel" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot-dubbo-seata" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot-dubbo-seata" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-cloud-lidong-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-lidong-example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-lidong-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-lidong-example" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-iot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-lidong-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-lidong-example" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-iot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-lidong-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-lidong-example" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-iot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-lidong-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-lidong-example" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-iot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-lidong-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-lidong-example" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-iot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webiot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-lidong-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-lidong-example" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-iot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webiot" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-lidong-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-lidong-example" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-iot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webiot" type="462c0819:PsiDirectoryNode" />
+              <item name="h003" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-lidong-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-lidong-example" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-iot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webiot" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-lidong-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568770314229" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="D:/qg/qg8" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15936507" />
+    <property name="project.structure.side.proportion" value="0.24651164" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.lidong.bootstrap" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.lidong.gateway" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lidong.auth.comm" />
+      <recent name="com.lidong.gateway" />
+      <recent name="com.lidong.webiot" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\springcloud\spring-cloud-lidong-example\spring-cloud-gateway-service-dynamic-nacos\src\main\resources" />
+      <recent name="D:\springcloud\spring-cloud-lidong-example" />
+      <recent name="D:\springcloud\spring-cloud-lidong-example\spring-cloud-nacos-auth-service\src\main\resources" />
+      <recent name="D:\springcloud\spring-cloud-lidong-example\springboot-dubbo-seata\samples-storage\src\main\resources" />
+      <recent name="D:\springcloud\spring-cloud-lidong-example\spring-cloud-alibaba-dubbo-examples\spring-cloud-alibaba-dubbo-consumer-sentinel\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GatewayApplication (1)">
+    <configuration name="AccountExampleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="samples-account" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.seata.samples.integration.account.AccountExampleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BusinessExampleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="samples-business" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.seata.samples.integration.call.BusinessExampleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lidong.gateway.ConfigClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lidong.gateway.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboSpringCloudConsumerBootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-alibaba-dubbo-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lidong.bootstrap.DubboSpringCloudConsumerBootstrap" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboSpringCloudConsumerBootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-alibaba-dubbo-consumer-sentinel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lidong.bootstrap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lidong.bootstrap.DubboSpringCloudConsumerBootstrap" />
+      <option name="VM_PARAMETERS" value="-Dcsp.sentinel.dashboard.server=localhost:8080 -Dproject.name=spring-cloud-alibaba-dubbo-consumer-sentinel" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboSpringCloudProviderBootstrap (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-alibaba-dubbo-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lidong.bootstrap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lidong.bootstrap.DubboSpringCloudProviderBootstrap" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboSpringCloudProviderBootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-alibaba-dubbo-provider2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lidong.bootstrap.DubboSpringCloudProviderBootstrap" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboSpringCloudServletGatewayBootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-dubbo-servlet-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lidong.bootstrap.DubboSpringCloudServletGatewayBootstrap" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboSpringCloudWebProviderBootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-alibaba-dubbo-provider-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lidong.bootstrap.DubboSpringCloudWebProviderBootstrap" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-gateway-service-dynamic-mysql" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lidong.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-gateway-service-dynamic-nacos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lidong.gateway.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lidong.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MqttSpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-iot-mqtt" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lidong.MqttSpringbootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderExampleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="samples-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.seata.samples.integration.order.OrderExampleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterSentinelGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-gateway-service-sentinel-register" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lidong.gateway.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lidong.gateway.RegisterSentinelGatewayApplication" />
+      <option name="VM_PARAMETERS" value="-Dcsp.sentinel.dashboard.server=localhost:8080 -Dproject.name=gateway-sentinel-register" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SentinelGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-gateway-service-sentinel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lidong.gateway.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lidong.gateway.SentinelGatewayApplication" />
+      <option name="VM_PARAMETERS" value="-Dcsp.sentinel.app.type=1 -Dcsp.sentinel.dashboard.server=localhost:8080 -Dproject.name=gateway-sentinel" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudAdmin" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="admin-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lidong.admin.SpringCloudAdmin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudConsulConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-consul-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lidong.consumer.SpringCloudConsulConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudEurekaConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-eureka-fignclient-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lidong.consumer.SpringCloudEurekaConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudLidongProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-eureka-producer2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lidong.gateway.SpringCloudLidongProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudNacosConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-nacos-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lidong.config.SpringCloudNacosConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudNacosConsumerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-nacos-auth-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lidong.auth.SpringCloudNacosAuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudNacosConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-nacos-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lidong.consumer.SpringCloudNacosConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudRegister" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lidong.gateway.SpringCloudRegister" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudTurbineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-eureka-hystrix-turbine" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lidong.turbine.SpringCloudTurbineApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot03" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lidong.springboot01.Springboot01Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootEsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-es" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lidong.SpringbootEsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootKafkaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-kafka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lidong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lidong.SpringbootKafkaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootMailApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-mail" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbootmail.SpringbootMailApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootRabbitmqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-rabbitmq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lidong.SpringbootRabbitmqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootShardingsphereApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-flink-rabbitmq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lidong.flink.SpringbootShardingsphereApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootShardingsphereApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-sharding-sphere" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lidong.shardingsphere.SpringbootShardingsphereApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StorageExampleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="samples-storage" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.seata.samples.integration.storage.StorageExampleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebiotApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-iot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lidong.webiot.WebiotApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ConfigClientApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.DubboSpringCloudProviderBootstrap" />
+      <item itemvalue="Spring Boot.DubboSpringCloudServletGatewayBootstrap" />
+      <item itemvalue="Spring Boot.DubboSpringCloudWebProviderBootstrap" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.MqttSpringbootApplication" />
+      <item itemvalue="Spring Boot.Springboot01Application" />
+      <item itemvalue="Spring Boot.SpringbootEsApplication" />
+      <item itemvalue="Spring Boot.SpringbootMailApplication" />
+      <item itemvalue="Spring Boot.SpringbootRabbitmqApplication" />
+      <item itemvalue="Spring Boot.SpringbootShardingsphereApplication" />
+      <item itemvalue="Spring Boot.SpringbootShardingsphereApplication (1)" />
+      <item itemvalue="Spring Boot.SpringCloudAdmin" />
+      <item itemvalue="Spring Boot.SpringCloudConsulConsumerApplication" />
+      <item itemvalue="Spring Boot.SpringCloudEurekaConsumerApplication" />
+      <item itemvalue="Spring Boot.SpringCloudLidongProviderApplication" />
+      <item itemvalue="Spring Boot.SpringCloudNacosConfigApplication" />
+      <item itemvalue="Spring Boot.SpringCloudNacosConsumerApplication" />
+      <item itemvalue="Spring Boot.SpringCloudRegister" />
+      <item itemvalue="Spring Boot.SpringCloudTurbineApplication" />
+      <item itemvalue="Spring Boot.WebiotApplication" />
+      <item itemvalue="Spring Boot.DubboSpringCloudConsumerBootstrap" />
+      <item itemvalue="Spring Boot.StorageExampleApplication" />
+      <item itemvalue="Spring Boot.OrderExampleApplication" />
+      <item itemvalue="Spring Boot.BusinessExampleApplication" />
+      <item itemvalue="Spring Boot.AccountExampleApplication" />
+      <item itemvalue="Spring Boot.DubboSpringCloudProviderBootstrap (1)" />
+      <item itemvalue="Spring Boot.SentinelGatewayApplication" />
+      <item itemvalue="Spring Boot.RegisterSentinelGatewayApplication" />
+      <item itemvalue="Spring Boot.SpringbootKafkaApplication" />
+      <item itemvalue="Spring Boot.SpringCloudNacosConsumerApplication (1)" />
+      <item itemvalue="Spring Boot.GatewayApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.GatewayApplication (1)" />
+        <item itemvalue="Spring Boot.SentinelGatewayApplication" />
+        <item itemvalue="Spring Boot.SpringbootKafkaApplication" />
+        <item itemvalue="Spring Boot.RegisterSentinelGatewayApplication" />
+        <item itemvalue="Spring Boot.DubboSpringCloudConsumerBootstrap" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5fd5495-1d35-4376-8594-9e6601df0ce1" name="Default Changelist" comment="" />
+      <created>1545717360535</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545717360535</updated>
+      <workItem from="1545717366880" duration="33031000" />
+      <workItem from="1546996447116" duration="32474000" />
+      <workItem from="1547101749039" duration="2694000" />
+      <workItem from="1547201348284" duration="1302000" />
+      <workItem from="1548654985159" duration="16520000" />
+      <workItem from="1548900875260" duration="12555000" />
+      <workItem from="1549933657166" duration="202000" />
+      <workItem from="1549958317044" duration="15569000" />
+      <workItem from="1550284236066" duration="1192000" />
+      <workItem from="1550455226710" duration="18588000" />
+      <workItem from="1551082265464" duration="2532000" />
+      <workItem from="1551233870013" duration="35000" />
+      <workItem from="1551319471599" duration="1915000" />
+      <workItem from="1551667039363" duration="589000" />
+      <workItem from="1562823411098" duration="6142000" />
+      <workItem from="1563167667358" duration="33035000" />
+      <workItem from="1563758982305" duration="14786000" />
+      <workItem from="1563779444359" duration="9441000" />
+      <workItem from="1563953512955" duration="17557000" />
+      <workItem from="1564036022389" duration="1349000" />
+      <workItem from="1564037450233" duration="144000" />
+      <workItem from="1564037755503" duration="3169000" />
+      <workItem from="1564049033011" duration="1316000" />
+      <workItem from="1564273192881" duration="36000" />
+      <workItem from="1564364612354" duration="74437000" />
+      <workItem from="1564969886699" duration="37495000" />
+      <workItem from="1565153956207" duration="7030000" />
+      <workItem from="1565161707089" duration="20200000" />
+      <workItem from="1565572993234" duration="4000" />
+      <workItem from="1565590225350" duration="12253000" />
+      <workItem from="1565658814884" duration="5688000" />
+      <workItem from="1566191993119" duration="9737000" />
+      <workItem from="1566368969401" duration="6479000" />
+      <workItem from="1566376146414" duration="55459000" />
+      <workItem from="1566793743703" duration="60952000" />
+      <workItem from="1568686175981" duration="30076000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="142968000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7972973" visible="true" weight="0.25643778" />
+      <window_info id="Structure" order="1" sideWeight="0.2027027" side_tool="true" weight="0.32847533" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Alibaba Cloud Explorer" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49624464" weight="0.4330357" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.904148" weight="0.22098215" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.85622317" visible="true" weight="0.20647322" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49892703" weight="0.51495725" />
+      <window_info anchor="bottom" id="REST Client" order="7" sideWeight="0.49946353" weight="0.32924107" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4899103" weight="0.4263393" />
+      <window_info anchor="bottom" id="Spring" order="9" sideWeight="0.49946353" weight="0.32924107" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946353" weight="0.4090909" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.09585202" side_tool="true" weight="0.13977273" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.475" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.49892703" weight="0.20795454" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="16" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.12285408" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Remote Host" order="5" weight="0.3299356" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="SciView" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" weight="0.33154505" />
+      <window_info anchor="right" id="Alibaba Log Console" order="12" />
+      <window_info anchor="right" id="CDI" order="13" weight="0.18937768" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/seata/seata-all/0.8.0/seata-all-0.8.0-sources.jar!/io/seata/config/FileConfiguration.java</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/seata/seata-all/0.8.0/seata-all-0.8.0-sources.jar!/io/seata/config/FileConfiguration.java</url>
+          <line>112</line>
+          <properties />
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/seata/seata-all/0.8.0/seata-all-0.8.0-sources.jar!/io/seata/config/FileConfiguration.java</url>
+          <line>119</line>
+          <properties />
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/seata/seata-all/0.8.0/seata-all-0.8.0-sources.jar!/io/seata/config/FileConfiguration.java</url>
+          <line>127</line>
+          <properties />
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/seata/seata-all/0.8.0/seata-all-0.8.0-sources.jar!/io/seata/config/FileConfiguration.java</url>
+          <line>137</line>
+          <properties />
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-cloud-nacos-auth-service/src/main/java/com/lidong/auth/controller/LoginController.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-cloud-gateway-service-sentinel/src/main/java/com/lidong/gateway/filter/JWTAuthFilter.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/cloud/spring-cloud-alibaba-nacos-config/2.1.0.RELEASE/spring-cloud-alibaba-nacos-config-2.1.0.RELEASE.jar!/com/alibaba/cloud/nacos/client/NacosPropertySourceLocator.class</url>
+          <line>146</line>
+          <properties />
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-nacos/src/main/java/com/lidong/gateway/service/NacosDynamicRouteService.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-spring-context/0.3.3/nacos-spring-context-0.3.3.jar!/com/alibaba/nacos/spring/context/event/config/EventPublishingConfigService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.1.0.RELEASE/spring-cloud-gateway-core-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/gateway/route/RouteDefinitionWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345">
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#878#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.1.0.RELEASE/spring-cloud-gateway-core-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/gateway/route/RouteDefinitionRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.1.0.RELEASE/spring-cloud-gateway-core-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/gateway/route/InMemoryRouteDefinitionRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#1729#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.1.0.RELEASE/spring-cloud-gateway-core-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/gateway/event/RefreshRoutesEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <element signature="e#1018#1019#0" expanded="true" />
+            <element signature="e#1047#1048#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.1.0.RELEASE/spring-cloud-gateway-core-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/gateway/route/CachingRouteDefinitionLocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1857#1858#0" expanded="true" />
+            <element signature="e#1873#1874#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-nacos/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="45" column="64" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-nacos/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="24" column="52" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="52" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-nacos/src/main/java/com/lidong/gateway/config/NacosGatewayDefineConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="33" column="14" lean-forward="true" selection-end-line="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2186#2187#0" expanded="true" />
+            <element signature="e#2237#2238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-nacos/src/main/java/com/lidong/gateway/service/NacosDynamicRouteService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="1" lean-forward="true" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-nacos/src/main/java/com/lidong/gateway/service/NacosDynamicRouteServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-nacos/src/main/java/com/lidong/gateway/GatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="36" column="1" lean-forward="true" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1025#1026#0" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-nacos/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-nacos/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sharding-sphere/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="52" lean-forward="true" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/resources/db/data.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-flink-rabbitmq/src/main/java/com/lidong/flink/config/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.1.RELEASE/spring-boot-2.1.1.RELEASE-sources.jar!/org/springframework/boot/context/properties/EnableConfigurationProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/lidong/RabbitMqConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#908#933#1" expanded="true" />
+            <element signature="e#967#992#1" expanded="true" />
+            <element signature="e#1023#1052#1" expanded="true" />
+            <element signature="e#1090#1119#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/lidong/QueueConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="44" column="80" selection-start-line="44" selection-start-column="80" selection-end-line="44" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/lidong/MessageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-alibaba-dubbo-examples/spring-cloud-alibaba-dubbo-provider/src/main/resources/bootstrap.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-alibaba-dubbo-examples/spring-cloud-alibaba-dubbo-provider/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-387" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-alibaba-dubbo-examples/spring-cloud-alibaba-dubbo-provider/src/main/java/com/lidong/bootstrap/DubboSpringCloudProviderBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iot-mqtt/src/main/java/com/lidong/config/MqttFunProviderConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-729">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iot-mqtt/src/main/java/com/lidong/service/MqttGateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iot-mqtt/src/main/java/com/lidong/controller/MessageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iot-mqtt/src/main/java/com/lidong/MqttSpringbootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iot/src/main/java/com/lidong/webiot/strategy/impl/E001CommandDataStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iot/src/main/java/com/lidong/webiot/strategy/impl/RequestCommandType216Strategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iot/src/main/java/com/lidong/webiot/strategy/impl/RequestCommandType200Strategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iot/src/main/java/com/lidong/webiot/netty/BootNettyChannelInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iot/src/main/java/com/lidong/webiot/strategy/impl/E017CommandDataStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iot/src/main/java/com/lidong/webiot/netty/BootNettyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-976">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iot/src/main/java/com/lidong/webiot/netty/BootNettyChannelInboundHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iot/src/main/java/com/lidong/webiot/strategy/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iot/src/main/java/com/lidong/webiot/strategy/CommandDataStrategyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="20" column="100" selection-start-line="20" selection-start-column="100" selection-end-line="20" selection-end-column="100" />
+          <folding>
+            <element signature="e#1920#1921#0" expanded="true" />
+            <element signature="e#1964#1965#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iot/src/main/java/com/lidong/webiot/ApplicationSentinel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iot/src/main/java/com/lidong/webiot/strategy/RequestCommdTypeStrategyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iot/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2997" />
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iot/src/main/java/com/lidong/webiot/h003/KeQiangXiaoXinController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-end-line="18" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>springboot-dubbo-seata</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.24651164" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>

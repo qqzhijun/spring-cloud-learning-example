@@ -1,0 +1,146 @@
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 93, column 21
+[WARNING] 'build.plugins.plugin.version' for org.springframework.boot:spring-boot-maven-plugin is missing. @ line 82, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-deploy-plugin is missing. @ line 86, column 21
+[ERROR] 'packaging' with value 'jar' is invalid. Aggregator projects require 'pom' as packaging. @ line 3, column 109
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project com.lidong:spring-cloud-alibaba-dubbo-examples:1.0.0 (D:\springcloud\spring-cloud-lidong-example\spring-cloud-alibaba-dubbo-examples\pom.xml) has 1 error
+[ERROR]     'packaging' with value 'jar' is invalid. Aggregator projects require 'pom' as packaging. @ line 3, column 109
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.lidong:spring-cloud-alibaba-dubbo-api:jar:1.0.0
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ com.lidong:spring-cloud-alibaba-dubbo-examples:1.0.0, D:\springcloud\spring-cloud-lidong-example\spring-cloud-alibaba-dubbo-examples\pom.xml, line 94, column 21
+[WARNING] 'build.plugins.plugin.version' for org.springframework.boot:spring-boot-maven-plugin is missing. @ com.lidong:spring-cloud-alibaba-dubbo-examples:1.0.0, D:\springcloud\spring-cloud-lidong-example\spring-cloud-alibaba-dubbo-examples\pom.xml, line 83, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-deploy-plugin is missing. @ com.lidong:spring-cloud-alibaba-dubbo-examples:1.0.0, D:\springcloud\spring-cloud-lidong-example\spring-cloud-alibaba-dubbo-examples\pom.xml, line 87, column 21
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.lidong:spring-cloud-alibaba-dubbo-provider:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ com.lidong:spring-cloud-alibaba-dubbo-examples:1.0.0, D:\springcloud\spring-cloud-lidong-example\spring-cloud-alibaba-dubbo-examples\pom.xml, line 94, column 21
+[WARNING] 'build.plugins.plugin.version' for org.springframework.boot:spring-boot-maven-plugin is missing. @ line 176, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-deploy-plugin is missing. @ com.lidong:spring-cloud-alibaba-dubbo-examples:1.0.0, D:\springcloud\spring-cloud-lidong-example\spring-cloud-alibaba-dubbo-examples\pom.xml, line 87, column 21
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.lidong:spring-cloud-alibaba-dubbo-provider2:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ com.lidong:spring-cloud-alibaba-dubbo-examples:1.0.0, D:\springcloud\spring-cloud-lidong-example\spring-cloud-alibaba-dubbo-examples\pom.xml, line 94, column 21
+[WARNING] 'build.plugins.plugin.version' for org.springframework.boot:spring-boot-maven-plugin is missing. @ line 176, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-deploy-plugin is missing. @ com.lidong:spring-cloud-alibaba-dubbo-examples:1.0.0, D:\springcloud\spring-cloud-lidong-example\spring-cloud-alibaba-dubbo-examples\pom.xml, line 87, column 21
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.lidong:spring-cloud-alibaba-dubbo-consumer:jar:0.0.1
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ com.lidong:spring-cloud-alibaba-dubbo-examples:1.0.0, D:\springcloud\spring-cloud-lidong-example\spring-cloud-alibaba-dubbo-examples\pom.xml, line 94, column 21
+[WARNING] 'build.plugins.plugin.version' for org.springframework.boot:spring-boot-maven-plugin is missing. @ line 136, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-deploy-plugin is missing. @ com.lidong:spring-cloud-alibaba-dubbo-examples:1.0.0, D:\springcloud\spring-cloud-lidong-example\spring-cloud-alibaba-dubbo-examples\pom.xml, line 87, column 21
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.lidong:spring-cloud-alibaba-dubbo-examples:pom:1.0.0
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 94, column 21
+[WARNING] 'build.plugins.plugin.version' for org.springframework.boot:spring-boot-maven-plugin is missing. @ line 83, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-deploy-plugin is missing. @ line 87, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] spring-cloud-alibaba-dubbo-examples
+[INFO] spring-cloud-alibaba-dubbo-api
+[INFO] spring-cloud-alibaba-dubbo-provider
+[INFO] spring-cloud-alibaba-dubbo-provider2
+[INFO] spring-cloud-alibaba-dubbo-consumer
+Downloading: http://47.94.160.101:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-maven-plugin/maven-metadata.xml
+3/6 KB   6/6 KB            Downloaded: http://47.94.160.101:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-maven-plugin/maven-metadata.xml (6 KB at 0.7 KB/sec)
+Downloading: http://47.94.160.101:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-maven-plugin/2.2.0.M5/spring-boot-maven-plugin-2.2.0.M5.pom
+2/5 KB   5/5 KB            Downloaded: http://47.94.160.101:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-maven-plugin/2.2.0.M5/spring-boot-maven-plugin-2.2.0.M5.pom (5 KB at 5.1 KB/sec)
+Downloading: http://47.94.160.101:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-tools/2.2.0.M5/spring-boot-tools-2.2.0.M5.pom
+2/2 KB            Downloaded: http://47.94.160.101:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-tools/2.2.0.M5/spring-boot-tools-2.2.0.M5.pom (2 KB at 1.9 KB/sec)
+Downloading: http://47.94.160.101:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-parent/2.2.0.M5/spring-boot-parent-2.2.0.M5.pom
+2/2 KB   2/2 KB            Downloaded: http://47.94.160.101:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-parent/2.2.0.M5/spring-boot-parent-2.2.0.M5.pom (2 KB at 1.8 KB/sec)
+Downloading: http://47.94.160.101:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-dependencies/2.2.0.M5/spring-boot-dependencies-2.2.0.M5.pom
+2/125 KB   6/125 KB   10/125 KB   14/125 KB   14/125 KB   16/125 KB   20/125 KB   23/125 KB   27/125 KB   30/125 KB   31/125 KB   35/125 KB   39/125 KB   40/125 KB   44/125 KB   47/125 KB   49/125 KB   50/125 KB   54/125 KB   58/125 KB   59/125 KB   63/125 KB   66/125 KB   67/125 KB   69/125 KB   71/125 KB   75/125 KB   76/125 KB   80/125 KB   81/125 KB   84/125 KB   86/125 KB   90/125 KB   90/125 KB   91/125 KB   95/125 KB   99/125 KB   100/125 KB   104/125 KB   104/125 KB   107/125 KB   111/125 KB   115/125 KB   116/125 KB   120/125 KB   121/125 KB   123/125 KB   125/125 KB                Downloaded: http://47.94.160.101:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-dependencies/2.2.0.M5/spring-boot-dependencies-2.2.0.M5.pom (125 KB at 82.7 KB/sec)
+Downloading: http://47.94.160.101:8081/nexus/content/groups/public/io/netty/netty-bom/4.1.38.Final/netty-bom-4.1.38.Final.pom
+2/8 KB       6/8 KB   8/8 KB            Downloaded: http://47.94.160.101:8081/nexus/content/groups/public/io/netty/netty-bom/4.1.38.Final/netty-bom-4.1.38.Final.pom (8 KB at 17.1 KB/sec)
+Downloading: http://47.94.160.101:8081/nexus/content/groups/public/io/projectreactor/reactor-bom/Dysprosium-M3/reactor-bom-Dysprosium-M3.pom
+2/5 KB   5/5 KB            Downloaded: http://47.94.160.101:8081/nexus/content/groups/public/io/projectreactor/reactor-bom/Dysprosium-M3/reactor-bom-Dysprosium-M3.pom (5 KB at 4.3 KB/sec)
+Downloading: http://47.94.160.101:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j-bom/2.12.0/log4j-bom-2.12.0.pom
+2/8 KB   6/8 KB   8/8 KB            Downloaded: http://47.94.160.101:8081/nexus/content/groups/public/org/apache/logging/log4j/log4j-bom/2.12.0/log4j-bom-2.12.0.pom (8 KB at 15.6 KB/sec)
+Downloading: http://47.94.160.101:8081/nexus/content/groups/public/org/glassfish/jersey/jersey-bom/2.29/jersey-bom-2.29.pom
+2/18 KB   6/18 KB   10/18 KB   14/18 KB   14/18 KB   16/18 KB   18/18 KB              Downloaded: http://47.94.160.101:8081/nexus/content/groups/public/org/glassfish/jersey/jersey-bom/2.29/jersey-bom-2.29.pom (18 KB at 34.1 KB/sec)
+Downloading: http://47.94.160.101:8081/nexus/content/groups/public/org/jetbrains/kotlin/kotlin-bom/1.3.41/kotlin-bom-1.3.41.pom
+3/9 KB     7/9 KB   9/9 KB            Downloaded: http://47.94.160.101:8081/nexus/content/groups/public/org/jetbrains/kotlin/kotlin-bom/1.3.41/kotlin-bom-1.3.41.pom (9 KB at 19.0 KB/sec)
+Downloading: http://47.94.160.101:8081/nexus/content/groups/public/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.3.0-RC/kotlinx-coroutines-bom-1.3.0-RC.pom
+2/4 KB   4/4 KB            Downloaded: http://47.94.160.101:8081/nexus/content/groups/public/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.3.0-RC/kotlinx-coroutines-bom-1.3.0-RC.pom (4 KB at 7.3 KB/sec)
+Downloading: http://47.94.160.101:8081/nexus/content/groups/public/org/junit/junit-bom/5.5.1/junit-bom-5.5.1.pom
+2/5 KB   5/5 KB            Downloaded: http://47.94.160.101:8081/nexus/content/groups/public/org/junit/junit-bom/5.5.1/junit-bom-5.5.1.pom (5 KB at 9.4 KB/sec)
+Downloading: http://47.94.160.101:8081/nexus/content/groups/public/org/springframework/spring-framework-bom/5.2.0.RC1/spring-framework-bom-5.2.0.RC1.pom
+2/6 KB   6/6 KB   6/6 KB            Downloaded: http://47.94.160.101:8081/nexus/content/groups/public/org/springframework/spring-framework-bom/5.2.0.RC1/spring-framework-bom-5.2.0.RC1.pom (6 KB at 5.2 KB/sec)
+Downloading: http://47.94.160.101:8081/nexus/content/groups/public/org/springframework/data/spring-data-releasetrain/Moore-RC2/spring-data-releasetrain-Moore-RC2.pom
+2/5 KB   5/5 KB            Downloaded: http://47.94.160.101:8081/nexus/content/groups/public/org/springframework/data/spring-data-releasetrain/Moore-RC2/spring-data-releasetrain-Moore-RC2.pom (5 KB at 4.9 KB/sec)
+Downloading: http://47.94.160.101:8081/nexus/content/groups/public/org/springframework/data/build/spring-data-build/2.2.0.RC2/spring-data-build-2.2.0.RC2.pom
+2/8 KB   3/8 KB   4/8 KB   7/8 KB   8/8 KB            Downloaded: http://47.94.160.101:8081/nexus/content/groups/public/org/springframework/data/build/spring-data-build/2.2.0.RC2/spring-data-build-2.2.0.RC2.pom (8 KB at 0.9 KB/sec)
+Downloading: http://47.94.160.101:8081/nexus/content/groups/public/org/springframework/integration/spring-integration-bom/5.2.0.M4/spring-integration-bom-5.2.0.M4.pom
+2/9 KB   4/9 KB   6/9 KB   9/9 KB   9/9 KB            Downloaded: http://47.94.160.101:8081/nexus/content/groups/public/org/springframework/integration/spring-integration-bom/5.2.0.M4/spring-integration-bom-5.2.0.M4.pom (9 KB at 8.4 KB/sec)
+Downloading: http://47.94.160.101:8081/nexus/content/groups/public/org/springframework/security/spring-security-bom/5.2.0.M4/spring-security-bom-5.2.0.M4.pom
+2/5 KB   4/5 KB   5/5 KB            Downloaded: http://47.94.160.101:8081/nexus/content/groups/public/org/springframework/security/spring-security-bom/5.2.0.M4/spring-security-bom-5.2.0.M4.pom (5 KB at 5.0 KB/sec)
+Downloading: http://47.94.160.101:8081/nexus/content/groups/public/org/springframework/session/spring-session-bom/Corn-M3/spring-session-bom-Corn-M3.pom
+3/3 KB            Downloaded: http://47.94.160.101:8081/nexus/content/groups/public/org/springframework/session/spring-session-bom/Corn-M3/spring-session-bom-Corn-M3.pom (3 KB at 2.8 KB/sec)
+Downloading: http://47.94.160.101:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-maven-plugin/2.2.0.M5/spring-boot-maven-plugin-2.2.0.M5.jar
+2/68 KB   6/68 KB   6/68 KB   7/68 KB   11/68 KB   11/68 KB   13/68 KB   17/68 KB   17/68 KB   20/68 KB   23/68 KB   24/68 KB   26/68 KB   29/68 KB   31/68 KB   34/68 KB   37/68 KB   40/68 KB   43/68 KB   44/68 KB   46/68 KB   49/68 KB   51/68 KB   53/68 KB   54/68 KB   56/68 KB   57/68 KB   60/68 KB   61/68 KB   65/68 KB   66/68 KB   67/68 KB   68/68 KB              Downloaded: http://47.94.160.101:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-maven-plugin/2.2.0.M5/spring-boot-maven-plugin-2.2.0.M5.jar (68 KB at 55.8 KB/sec)
+Downloading: http://47.94.160.101:8081/nexus/content/groups/public/org/apache/maven/plugins/maven-compiler-plugin/maven-metadata.xml
+2/2 KB              Downloaded: http://47.94.160.101:8081/nexus/content/groups/public/org/apache/maven/plugins/maven-compiler-plugin/maven-metadata.xml (2 KB at 0.3 KB/sec)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-cloud-alibaba-dubbo-examples 1.0.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ spring-cloud-alibaba-dubbo-examples ---
+[INFO] com.lidong:spring-cloud-alibaba-dubbo-examples:pom:1.0.0
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-cloud-alibaba-dubbo-api 1.0.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ spring-cloud-alibaba-dubbo-api ---
+[INFO] com.lidong:spring-cloud-alibaba-dubbo-api:jar:1.0.0
+[INFO] +- org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO] \- org.apache.dubbo:dubbo:jar:2.7.1:compile
+[INFO]    +- org.javassist:javassist:jar:3.20.0-GA:compile
+[INFO]    +- io.netty:netty-all:jar:4.1.33.Final:compile
+[INFO]    +- com.google.code.gson:gson:jar:2.8.5:compile
+[INFO]    \- org.yaml:snakeyaml:jar:1.23:compile
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-cloud-alibaba-dubbo-provider 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://47.94.160.101:8081/nexus/content/groups/public/com/lidong/spring-cloud-alibaba-dubbo-api/1.0.0/spring-cloud-alibaba-dubbo-api-1.0.0.jar
+         [INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] spring-cloud-alibaba-dubbo-examples ................ SUCCESS [  5.333 s]
+[INFO] spring-cloud-alibaba-dubbo-api ..................... SUCCESS [  0.165 s]
+[INFO] spring-cloud-alibaba-dubbo-provider ................ FAILURE [  3.403 s]
+[INFO] spring-cloud-alibaba-dubbo-provider2 ............... SKIPPED
+[INFO] spring-cloud-alibaba-dubbo-consumer ................ SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 44.727 s
+[INFO] Finished at: 2019-08-07T14:08:56+08:00
+[INFO] Final Memory: 44M/362M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project spring-cloud-alibaba-dubbo-provider: Could not resolve dependencies for project com.lidong:spring-cloud-alibaba-dubbo-provider:jar:0.0.1-SNAPSHOT: Could not find artifact com.lidong:spring-cloud-alibaba-dubbo-api:jar:1.0.0 in public (http://47.94.160.101:8081/nexus/content/groups/public/) -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :spring-cloud-alibaba-dubbo-provider
