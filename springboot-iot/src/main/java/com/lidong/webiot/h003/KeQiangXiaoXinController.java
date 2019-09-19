@@ -16,7 +16,6 @@ import java.util.Map;
 import java.util.TreeMap;
 import java.util.UUID;
 
-git reset --head 3e5df36c631dba0d9a2a2ec0d7616767e8f210fe HEAD is now at d83e1ae
 @Slf4j
 @RestController
 @RequestMapping("/command")

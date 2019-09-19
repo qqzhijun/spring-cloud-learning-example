@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.lidong</groupId>
-    <artifactId>spring-cloud-eureka-consumer</artifactId>
+    <artifactId>spring-cloud-eureka-ribbon-consumer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-cloud-eureka-consumer</name>
+    <name>spring-cloud-eureka-ribbon-consumer</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
