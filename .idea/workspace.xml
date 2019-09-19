@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5fd5495-1d35-4376-8594-9e6601df0ce1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-dubbo-seata/samples-account/src/main/java/io/seata/samples/integration/account/config/SeataAutoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-dubbo-seata/samples-account/src/main/java/io/seata/samples/integration/account/config/SeataAutoConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-alibaba-dubbo-examples/spring-cloud-alibaba-dubbo-consumer/target/" />
@@ -62,15 +61,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-iot/src/main/java/com/lidong/webiot/strategy/RequestCommdTypeStrategyFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-iot/pom.xml">
           <provider selected="true" editor-type-id="text-editor" />
@@ -143,11 +133,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-dubbo-seata/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SECOND">
+              <first_editor relative-caret-position="2868">
+                <caret line="1119" column="3" lean-forward="true" selection-start-line="1119" selection-start-column="3" selection-end-line="1119" selection-end-column="3" />
+                <folding>
+                  <element signature="imports" expanded="true" />
+                  <element signature="imports" expanded="true" />
+                  <element signature="e#662#663#0" expanded="true" />
+                  <element signature="e#738#739#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="324">
+                <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
@@ -227,8 +237,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-cloud-nacos-auth-service/src/main/java/com/lidong/auth/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-gateway-service-sentinel/src/main/java/com/lidong/gateway/comm/GatewayLogUtil.java" />
         <option value="$PROJECT_DIR$/spring-cloud-gateway-service-sentinel/src/main/java/com/lidong/gateway/comm/DataBufferWrapper.java" />
         <option value="$PROJECT_DIR$/spring-cloud-gateway-service-sentinel/src/main/java/com/lidong/gateway/comm/DataBufferUtilFix.java" />
         <option value="$PROJECT_DIR$/spring-cloud-gateway-service-sentinel/src/main/java/com/lidong/gateway/comm/RecorderServerHttpRequestDecorator.java" />
@@ -278,6 +286,8 @@
         <option value="$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-redis/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-mysql/src/main/java/com/lidong/gateway/ApplicationStartup.java" />
         <option value="$PROJECT_DIR$/springboot-dubbo-seata/samples-account/src/main/java/io/seata/samples/integration/account/config/SeataAutoConfig.java" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-seata/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -401,7 +411,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568856693318" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568857410993" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -812,18 +822,18 @@
       <workItem from="1566376146414" duration="55459000" />
       <workItem from="1566793743703" duration="60952000" />
       <workItem from="1568686175981" duration="30076000" />
-      <workItem from="1568855763138" duration="899000" />
+      <workItem from="1568855763138" duration="1437000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143867000" />
+    <option name="totallyTimeSpent" value="144405000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7972973" visible="true" weight="0.26019314" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7972973" visible="true" weight="0.26019314" />
       <window_info id="Structure" order="1" sideWeight="0.2027027" side_tool="true" weight="0.32847533" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -840,7 +850,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49892703" weight="0.51495725" />
       <window_info anchor="bottom" id="REST Client" order="7" sideWeight="0.49946353" weight="0.32924107" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" sideWeight="0.4899103" visible="true" weight="0.042410713" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4899103" visible="true" weight="0.042410713" />
       <window_info anchor="bottom" id="Spring" order="9" sideWeight="0.49946353" weight="0.32924107" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946353" weight="0.4090909" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -852,7 +862,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.2333691" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.084227465" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Remote Host" order="5" weight="0.3299356" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
@@ -929,7 +939,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-nacos/src/main/resources/logback-spring.xml" />
     <entry file="file://$PROJECT_DIR$/spring-cloud-gateway-service-dynamic-nacos/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
@@ -1271,8 +1280,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-dubbo-seata/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="2868">
+            <caret line="1119" column="3" lean-forward="true" selection-start-line="1119" selection-start-column="3" selection-end-line="1119" selection-end-column="3" />
+            <folding>
+              <element signature="imports" expanded="true" />
+              <element signature="imports" expanded="true" />
+              <element signature="e#662#663#0" expanded="true" />
+              <element signature="e#738#739#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="324">
+            <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
