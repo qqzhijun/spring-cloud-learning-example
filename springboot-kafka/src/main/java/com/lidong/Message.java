@@ -6,6 +6,7 @@ import java.util.Date;
 
 @Data
 public class Message {
+
     private Long id;    //id
 
     private String msg; //消息

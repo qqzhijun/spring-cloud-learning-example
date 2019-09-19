@@ -1,4 +1,4 @@
-package com.lidong.gateway;
+package com.lidong.producer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

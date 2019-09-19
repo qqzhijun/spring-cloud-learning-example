@@ -1,4 +1,4 @@
-package com.lidong.gateway.service;
+package com.lidong.produce2.service;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;

@@ -1,4 +1,3 @@
-
 spring:
   kafka:
     bootstrap-servers: 192.168.10.200:9092
@@ -16,10 +15,9 @@ server:
     context-path:
   port: 8888
 
-#  ²é¿´Ö÷ÌâµÄÏêÏ¸ĞÅÏ¢Ö¸Áî
+#  æŸ¥çœ‹ä¸»é¢˜çš„è¯¦ç»†ä¿¡æ¯æŒ‡ä»¤
 #  ./bin/kafka-topics.sh --zookeeper localhost:2181 --describe --topic  test_topic
 
- # ./bin/kafka-topics.sh --alter  --zookeeper localhost:2181  --topic Ö÷ÌâÃû³Æ  --partitions
- # ·ÖÇøÊıÁ¿
-
+# ./bin/kafka-topics.sh --alter  --zookeeper localhost:2181  --topic ä¸»é¢˜åç§°  --partitions
+# åˆ†åŒºæ•°é‡
 #  ./bin/kafka-topics.sh --alter  --zookeeper localhost:2181  --topic test_topic  --partitions 5

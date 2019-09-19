@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 
 /**
- * @Author: llidong
+ * @Author: lidong
  * @Description  seata global configuration
  * @Date Created in 2019/9/05 10:28
  */

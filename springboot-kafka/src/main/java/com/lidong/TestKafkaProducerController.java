@@ -1,6 +1,7 @@
 package com.lidong;
 
 import com.alibaba.fastjson.JSON;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.support.SendResult;
@@ -9,13 +10,13 @@ import org.springframework.util.concurrent.ListenableFutureCallback;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.UUID;
 
 /**
  * 测试kafka生产者
  */
 @RestController
 @RequestMapping("kafka")
+@Slf4j
 public class TestKafkaProducerController {
 
     @Autowired
@@ -42,12 +43,12 @@ public class TestKafkaProducerController {
         test_topic.addCallback(new ListenableFutureCallback<SendResult<String, String>>() {
             @Override
             public void onFailure(Throwable ex) {
-
+                log.error("发送成功",ex);
             }
 
             @Override
             public void onSuccess(SendResult<String, String> result) {
-                   System.out.println(JSON.toJSON(result));
+                   log.info("发送成功",JSON.toJSON(result));
             }
         });
         return "success";
