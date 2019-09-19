@@ -11,8 +11,6 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @SpringBootApplication
 public class SentinelGatewayApplication {
 
-
-
     public static void main(String[] args) {
         SpringApplication.run(SentinelGatewayApplication.class, args);
     }
