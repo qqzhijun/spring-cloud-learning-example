@@ -15,7 +15,7 @@ logging:
 
 nacos:
   config:
-    server-addr: 192.168.10.200:8848
+    server-addr: 127.0.0.1:8848
     group: NAOCS-SPRING-CLOUD-GATEWAY
     file-extension: json
     data-id: spring-cloud-gateway.json

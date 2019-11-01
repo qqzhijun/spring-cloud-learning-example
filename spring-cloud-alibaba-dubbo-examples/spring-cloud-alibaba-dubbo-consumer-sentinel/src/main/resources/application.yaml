@@ -10,9 +10,9 @@ dubbo:
     # The subscribed services in consumer side
     subscribed-services: ${provider.application.name}
   metadata-report:
-    address: nacos://192.168.10.200:8848
+    address: nacos://127.0.0.1:8848
   config-center:
-    address: nacos://192.168.10.200:8848
+    address: nacos://127.0.0.1:8848
 
 server:
   port: 9888

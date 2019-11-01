@@ -56,46 +56,46 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="admin-server" options="-parameters" />
-      <module name="config-client" options="-parameters" />
-      <module name="config-server" options="-parameters" />
-      <module name="eureka-server" options="-parameters" />
-      <module name="samples-account" options="-parameters" />
-      <module name="samples-business" options="-parameters" />
-      <module name="samples-common" options="-parameters" />
-      <module name="samples-order" options="-parameters" />
-      <module name="samples-storage" options="-parameters" />
+      <module name="admin-server" options="" />
+      <module name="config-client" options="" />
+      <module name="config-server" options="" />
+      <module name="eureka-server" options="" />
+      <module name="samples-account" options="" />
+      <module name="samples-business" options="" />
+      <module name="samples-common" options="" />
+      <module name="samples-order" options="" />
+      <module name="samples-storage" options="" />
       <module name="spring-cloud-alibaba-dubbo-api" options="" />
       <module name="spring-cloud-alibaba-dubbo-provider" options="" />
-      <module name="spring-cloud-consul-consumer" options="-parameters" />
-      <module name="spring-cloud-consul-producer" options="-parameters" />
-      <module name="spring-cloud-consul-producer2" options="-parameters" />
-      <module name="spring-cloud-eureka-fignclient-consumer" options="-parameters" />
-      <module name="spring-cloud-eureka-hystrix-turbine" options="-parameters" />
-      <module name="spring-cloud-eureka-producer" options="-parameters" />
-      <module name="spring-cloud-eureka-producer2" options="-parameters" />
-      <module name="spring-cloud-eureka-ribbon-consumer" options="-parameters" />
-      <module name="spring-cloud-gateway-service" options="-parameters" />
-      <module name="spring-cloud-gateway-service-dynamic-mysql" options="-parameters" />
-      <module name="spring-cloud-gateway-service-dynamic-nacos" options="-parameters" />
-      <module name="spring-cloud-gateway-service-dynamic-redis" options="-parameters" />
-      <module name="spring-cloud-gateway-service-sentinel" options="-parameters" />
-      <module name="spring-cloud-gateway-service-sentinel-register" options="-parameters" />
-      <module name="spring-cloud-nacos-auth-service" options="-parameters" />
-      <module name="spring-cloud-nacos-config" options="-parameters" />
-      <module name="spring-cloud-nacos-consumer" options="-parameters" />
-      <module name="spring-cloud-nacos-producer" options="-parameters" />
-      <module name="springboot-es" options="-parameters" />
-      <module name="springboot-flink-rabbitmq" options="-parameters" />
-      <module name="springboot-iot" options="-parameters" />
-      <module name="springboot-iot-mqtt" options="-parameters" />
-      <module name="springboot-kafka" options="-parameters" />
-      <module name="springboot-mail" options="-parameters" />
-      <module name="springboot-rabbitmq" options="-parameters" />
-      <module name="springboot-sharding-sphere" options="-parameters" />
-      <module name="springboot01" options="-parameters" />
-      <module name="springboot02" options="-parameters" />
-      <module name="springboot03" options="-parameters" />
+      <module name="spring-cloud-consul-consumer" options="" />
+      <module name="spring-cloud-consul-producer" options="" />
+      <module name="spring-cloud-consul-producer2" options="" />
+      <module name="spring-cloud-eureka-fignclient-consumer" options="" />
+      <module name="spring-cloud-eureka-hystrix-turbine" options="" />
+      <module name="spring-cloud-eureka-producer" options="" />
+      <module name="spring-cloud-eureka-producer2" options="" />
+      <module name="spring-cloud-eureka-ribbon-consumer" options="" />
+      <module name="spring-cloud-gateway-service" options="" />
+      <module name="spring-cloud-gateway-service-dynamic-mysql" options="" />
+      <module name="spring-cloud-gateway-service-dynamic-nacos" options="" />
+      <module name="spring-cloud-gateway-service-dynamic-redis" options="" />
+      <module name="spring-cloud-gateway-service-sentinel" options="" />
+      <module name="spring-cloud-gateway-service-sentinel-register" options="" />
+      <module name="spring-cloud-nacos-auth-service" options="" />
+      <module name="spring-cloud-nacos-config" options="" />
+      <module name="spring-cloud-nacos-consumer" options="" />
+      <module name="spring-cloud-nacos-producer" options="" />
+      <module name="springboot-es" options="" />
+      <module name="springboot-flink-rabbitmq" options="" />
+      <module name="springboot-iot" options="" />
+      <module name="springboot-iot-mqtt" options="" />
+      <module name="springboot-kafka" options="" />
+      <module name="springboot-mail" options="" />
+      <module name="springboot-rabbitmq" options="" />
+      <module name="springboot-sharding-sphere" options="" />
+      <module name="springboot01" options="" />
+      <module name="springboot02" options="" />
+      <module name="springboot03" options="" />
     </option>
   </component>
 </project>

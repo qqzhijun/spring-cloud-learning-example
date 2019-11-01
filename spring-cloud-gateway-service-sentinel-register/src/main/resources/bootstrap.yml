@@ -23,13 +23,13 @@ spring:
             - RewritePath=/httpbin/(?<segment>.*), /$\{segment}
     sentinel:
       datasource.ds2.nacos:
-        server-addr: 192.168.10.200:8848
+        server-addr: 127.0.0.1:8848
         data-id: gateway.json
         data-type: json
         group-id: DEFAULT_GROUP
         ruleType: gw-flow
       datasource.ds1.nacos:
-        server-addr: 192.168.10.200:8848
+        server-addr: 127.0.0.1:8848
         data-id: api.json
         data-type: json
         group-id: DEFAULT_GROUP

@@ -25,7 +25,7 @@ Nacos 快速入门：[https://nacos.io/en-us/docs/quick-start.html](https://naco
 sh startup.sh -m standalone
 ```
 
-在浏览器打开Nacos web 控制台：http://192.168.10.200:8848/nacos/index.html
+在浏览器打开Nacos web 控制台：http://127.0.0.1:8848/nacos/index.html
 
 输入nacos的账号和密码 分别为nacos：nacos
 
@@ -755,11 +755,11 @@ dubbo.application.name= dubbo-account-example
 dubbo.protocol.id=dubbo
 dubbo.protocol.name=dubbo
 dubbo.registry.id=dubbo-account-example-registry
-dubbo.registry.address=nacos://192.168.10.200:8848
+dubbo.registry.address=nacos://127.0.0.1:8848
 dubbo.protocol.port=20880
 dubbo.application.qosEnable=false
-dubbo.config-center.address=nacos://192.168.10.200:8848
-dubbo.metadata-report.address=nacos://192.168.10.200:8848
+dubbo.config-center.address=nacos://127.0.0.1:8848
+dubbo.metadata-report.address=nacos://127.0.0.1:8848
 
 #====================================mysql 配置============================================
 spring.datasource.driver-class-name=com.mysql.jdbc.Driver
@@ -961,7 +961,7 @@ public class AccountExampleApplication {
 ## 4 启动所有的sample模块
 启动 `samples-account`、`samples-order`、`samples-storage`、`samples-business`
 
-并且在nocos的控制台查看注册情况: http://192.168.10.200:8848/nacos/#/serviceManagement
+并且在nocos的控制台查看注册情况: http://127.0.0.1:8848/nacos/#/serviceManagement
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190905131449502.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saWRvbmcxNjY1LmJsb2cuY3Nkbi5uZXQ=,size_16,color_FFFFFF,t_70)
 
