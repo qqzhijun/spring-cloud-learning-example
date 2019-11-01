@@ -14,7 +14,7 @@ public class RabbitMQProducerUtil {
         ConnectionFactory factory = new ConnectionFactory();
 
         //设置RabbitMQ相关信息
-        factory.setHost("192.168.10.200");
+        factory.setHost("127.0.0.1");
         factory.setUsername("worker");
         factory.setPassword("123456");
         factory.setVirtualHost("/");

@@ -53,7 +53,7 @@ registry {
   type = "nacos"
 
   nacos {
-    serverAddr = "192.168.10.200"
+    serverAddr = "127.0.0.1"
     namespace = "public"
     cluster = "default"
   }
@@ -67,7 +67,7 @@ config {
   type = "nacos"
 
   nacos {
-    serverAddr = "192.168.10.200"
+    serverAddr = "127.0.0.1"
     namespace = "public"
     cluster = "default"
   }
@@ -78,7 +78,7 @@ config {
 }
 
 ```
-- serverAddr = "192.168.10.200"   ：nacos 的地址
+- serverAddr = "127.0.0.1"   ：nacos 的地址
 - namespace = "public" ：nacos的命名空间默认为`public`
 - cluster = "default"  ：集群设置未默认 `default`
 
@@ -120,9 +120,9 @@ store.file.session.reload.read_size=100
 store.db.driver-class-name=com.mysql.jdbc.Driver
 store.db.datasource=dbcp
 store.db.db-type=mysql
-store.db.url=jdbc:mysql://192.168.10.200:3306/seata?useUnicode=true
+store.db.url=jdbc:mysql://127.0.0.1:3306/seata?useUnicode=true
 store.db.user=lidong
-store.db.password=cwj887766@@
+store.db.password=123
 store.db.min-conn=1
 store.db.max-conn=3
 store.db.global.table=global_table
@@ -150,9 +150,9 @@ metrics.exporter-prometheus-port=9898
 - store.db.driver-class-name： 默认没有，会报错。添加了 `com.mysql.jdbc.Driver`
 - store.db.datasource=dbcp ：数据源 dbcp
 - store.db.db-type=mysql : 存储数据库的类型为`mysql`
-- store.db.url=jdbc:mysql://192.168.10.200:3306/seata?useUnicode=true : 修改为自己的数据库`url`、`port`、`数据库名称`
+- store.db.url=jdbc:mysql://127.0.0.1:3306/seata?useUnicode=true : 修改为自己的数据库`url`、`port`、`数据库名称`
 - store.db.user=lidong :数据库的账号
-- store.db.password=cwj887766@@ :数据库的密码
+- store.db.password=123 :数据库的密码
 - service.vgroup_mapping.order-service-seata-service-group=default
 - service.vgroup_mapping.account-service-seata-service-group=default
 - service.vgroup_mapping.storage-service-seata-service-group=default
@@ -763,9 +763,9 @@ dubbo.metadata-report.address=nacos://127.0.0.1:8848
 
 #====================================mysql 配置============================================
 spring.datasource.driver-class-name=com.mysql.jdbc.Driver
-spring.datasource.url=jdbc:mysql://192.168.10.200:3306/seata?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
-spring.datasource.username=lidong
-spring.datasource.password=cwj887766@@
+spring.datasource.url=jdbc:mysql://127.0.0.1:3306/seata?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+spring.datasource.username=root
+spring.datasource.password=123
 
 
 #=====================================mybatis 配置======================================
@@ -780,7 +780,7 @@ registry {
   type = "nacos"
 
   nacos {
-    serverAddr = "192.168.10.200"
+    serverAddr = "127.0.0.1"
     namespace = "public"
     cluster = "default"
   }
@@ -798,7 +798,7 @@ config {
   }
 
   nacos {
-    serverAddr = "192.168.10.200"
+    serverAddr = "127.0.0.1"
     namespace = "public"
     cluster = "default"
   }
@@ -995,9 +995,9 @@ public class AccountExampleApplication {
 
 ```
 2019-09-05 12:17:34.097  INFO 21860 --- [nio-8104-exec-4] i.s.s.i.c.controller.BusinessController  : 请求参数：BusinessDTO(userId=1, commodityCode=C201901140001, name=fan, count=50, amount=100)
-2019-09-05 12:17:34.146  INFO 21860 --- [nio-8104-exec-4] i.seata.tm.api.DefaultGlobalTransaction  : Begin new global transaction [192.168.10.200:8091:2021380638]
-2019-09-05 12:17:34.150  INFO 21860 --- [nio-8104-exec-4] i.s.s.i.c.service.BusinessServiceImpl    : 开始全局事务，XID = 192.168.10.200:8091:2021380638
-2019-09-05 12:17:36.966  INFO 21860 --- [nio-8104-exec-4] i.seata.tm.api.DefaultGlobalTransaction  : [192.168.10.200:8091:2021380638] commit status:Committed
+2019-09-05 12:17:34.146  INFO 21860 --- [nio-8104-exec-4] i.seata.tm.api.DefaultGlobalTransaction  : Begin new global transaction [127.0.0.1:8091:2021380638]
+2019-09-05 12:17:34.150  INFO 21860 --- [nio-8104-exec-4] i.s.s.i.c.service.BusinessServiceImpl    : 开始全局事务，XID = 127.0.0.1:8091:2021380638
+2019-09-05 12:17:36.966  INFO 21860 --- [nio-8104-exec-4] i.seata.tm.api.DefaultGlobalTransaction  : [127.0.0.1:8091:2021380638] commit status:Committed
 ```
 事务提交成功，
 
@@ -1042,9 +1042,9 @@ if (!flag) {
 2019-09-05 12:29:32.848  INFO 17264 --- [nio-8104-exec-2] i.s.common.loader.EnhancedServiceLoader  : load TransactionManager[null] extension by class[io.seata.tm.DefaultTransactionManager]
 2019-09-05 12:29:32.849  INFO 17264 --- [nio-8104-exec-2] io.seata.tm.TransactionManagerHolder     : TransactionManager Singleton io.seata.tm.DefaultTransactionManager@461585ac
 2019-09-05 12:29:32.859  INFO 17264 --- [nio-8104-exec-2] i.s.common.loader.EnhancedServiceLoader  : load LoadBalance[null] extension by class[io.seata.discovery.loadbalance.RandomLoadBalance]
-2019-09-05 12:29:32.893  INFO 17264 --- [nio-8104-exec-2] i.seata.tm.api.DefaultGlobalTransaction  : Begin new global transaction [192.168.10.200:8091:2021380674]
-2019-09-05 12:29:32.897  INFO 17264 --- [nio-8104-exec-2] i.s.s.i.c.service.BusinessServiceImpl    : 开始全局事务，XID = 192.168.10.200:8091:2021380674
-2019-09-05 12:29:34.143  INFO 17264 --- [nio-8104-exec-2] i.seata.tm.api.DefaultGlobalTransaction  : [192.168.10.200:8091:2021380674] rollback status:Rollbacked
+2019-09-05 12:29:32.893  INFO 17264 --- [nio-8104-exec-2] i.seata.tm.api.DefaultGlobalTransaction  : Begin new global transaction [127.0.0.1:8091:2021380674]
+2019-09-05 12:29:32.897  INFO 17264 --- [nio-8104-exec-2] i.s.s.i.c.service.BusinessServiceImpl    : 开始全局事务，XID = 127.0.0.1:8091:2021380674
+2019-09-05 12:29:34.143  INFO 17264 --- [nio-8104-exec-2] i.seata.tm.api.DefaultGlobalTransaction  : [127.0.0.1:8091:2021380674] rollback status:Rollbacked
 2019-09-05 12:29:34.158 ERROR 17264 --- [nio-8104-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: 测试抛异常后，分布式事务回滚！] with root cause
 
 java.lang.RuntimeException: 测试抛异常后，分布式事务回滚！
